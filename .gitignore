@@ -1,0 +1,85 @@
+# Hidden folders (all folders starting with .)
+# Except .git and .github
+.*/
+!.git/
+!.github/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+config.json
+*.key
+*.pem
+
+# API Keys and Secrets (IMPORTANT!)
+**/config.json
+!config.example.json
+
+# Output and logs
+output/
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Kiro (if you don't want to share)
+# .kiro/
+
+# Data files (if sensitive)
+# data/

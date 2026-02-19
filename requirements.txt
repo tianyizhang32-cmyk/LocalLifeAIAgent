@@ -1,0 +1,18 @@
+# Core Dependencies
+openai==2.21.0
+pydantic==2.12.5
+requests==2.32.5
+
+# Monitoring and Metrics
+prometheus-client==0.24.1
+psutil==7.0.0
+
+# Testing
+pytest==9.0.2
+pytest-cov==7.0.0
+hypothesis==6.151.6
+
+# Development Tools (Optional)
+# black==26.1.0
+# pylint==4.0.4
+# mypy==1.19.1
